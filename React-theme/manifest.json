@@ -1,0 +1,32 @@
+{
+  "vendor": "tfddqg",
+  "name": "react-don-acildes",
+  "version": "1.0.0",
+  "title": "react-don-acildes",
+  "description": "react-don-acildes",
+  "builders": {
+    "react": "3.x",
+    "messages": "1.x",
+    "docs": "0.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.product-context": "0.x",
+    "vtex.css-handles": "0.x",
+    "vtex.order-placed-graphql": "1.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.order-items": "0.x",
+    "vtex.minicart": "2.x",
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.login": "2.x",
+    "vtex.product-list-context": "0.x",
+    "vtex.pages-graphql": "2.x",
+    "vtex.store-components": "3.x",
+    "vtex.search-result": "3.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
